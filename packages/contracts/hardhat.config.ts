@@ -5,7 +5,7 @@ import path from 'path';
 import {HardhatRuntimeEnvironment} from 'hardhat/types';
 import {extendEnvironment, HardhatUserConfig} from 'hardhat/config';
 import '@nomicfoundation/hardhat-chai-matchers';
-import '@nomiclabs/hardhat-etherscan';
+import '@nomicfoundation/hardhat-verify';
 import 'hardhat-deploy';
 import 'hardhat-gas-reporter';
 import '@openzeppelin/hardhat-upgrades';
