@@ -1,5 +1,5 @@
 {
-  "name": "@aragon/osx",
+  "name": "@xinfin/osx",
   "version": "1.3.0-rc0",
   "description": "The Aragon OSx Solidity contracts",
   "publishConfig": {

@@ -26,7 +26,7 @@ echo '> Building subgraph'
 
 if [ "$NETWORK_NAME" == 'localhost' ]
 then
-  NETWORK_NAME='goerli'
+  NETWORK_NAME='apothem'
 fi
 
 # Prepare subgraph name
