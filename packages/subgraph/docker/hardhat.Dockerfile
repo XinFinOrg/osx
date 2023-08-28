@@ -1,11 +1,16 @@
 FROM node:18
 
 RUN mkdir /osx
-ADD . /osx
+
 WORKDIR /osx
+
+ADD ./yarn.lock ./yarn.lock
+
 RUN yarn install
 
-WORKDIR /osx/packages/contracts-versions
+ADD . .
+
+WORKDIR /osx/packages/contracts-ethers
 RUN yarn build
 
 WORKDIR /osx/packages/contracts
